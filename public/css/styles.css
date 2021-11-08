@@ -1,0 +1,53 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin : 0; 
+    padding : 0;
+}
+header{
+    padding-bottom: 20px;
+
+}
+.background{
+    background-color: #EAC926;
+}
+p{
+    font-size: 12px;
+}
+h3.headline {
+    font-size: 24px;
+}
+div.burger-menu{
+    text-align: center;
+}
+p.price{
+    font-size: 18px;
+}
+p.discount{
+    font-size: 16px;
+}
+h4.descriptions{
+    font-size: 16px;
+}
+div.burger-menu{
+    background-color : #1259c3 ;
+    margin :  15px auto ;
+    width : 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.burger-menu{
+    color: rgb(255,255,255);
+    text-align: center;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(0,0,0)
+}
+button{
+    padding: 10px ;
+    height: 30px;
+    width: 30px;
+    box-sizing:border box;      
+}
