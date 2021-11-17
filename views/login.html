@@ -5,22 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/style-register.css">
+    <link rel="stylesheet" href="/css/login.css">
     <script src="https://kit.fontawesome.com/e30354bacd.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    <title>Formulario de registro</title>
+    <title>Entrar a cuenta</title>
     
     
 </head>
 <body>
     <header class="main-header">
         <div class = "main-header-logo-busc">
-            
                     <img class = "logo" src="images/logo-mercado-liebre.svg "  alt="Logo de mercado liebre" >
-                            
                 <div class="buscador">
                     <a href="" class = "icon-buscador">
                         <i class="fas fa-search"></i> 
@@ -33,6 +31,7 @@
                         </p>
                 </div>
             </div>
+           
         </div>
 
         
@@ -58,73 +57,24 @@
     </header>
     <main>
         <section class="section-form">
-            <h2>Crea tu cuenta</h2>
-            <form action="Crear-usuario" method="POST">
+            <h2>Ingresar a mi cuenta</h2>
+            <form action="Login" method="POST">
                     <div class="profile">
-                        <input type="text" name = "name" placeholder="Nombre y apellido">
                         <input type="text" name = "user" placeholder="Nombre de usuario">
-                        <input type="email" name = "email" placeholder="Email">
                         <br>
-                    </div>
-                    <div class="fecha">
-                        <h4>Fecha de Nacimiento</h4>
-                        <input type="date" name="dia" id="dia">
-                        <br>
-                    </div>
-                        <input type="text" name = "domicilio" placeholder="Domicilio">
-                        <h4>Perfil de usuario</h4>
-                        <div class="birthdate">
-                        <div class = "type-user">
-                            <input type="radio" name="buy" id="buy" >
-                            <label for="buy">Comprador</label>
-                        </div>
-                            <div class="type-user">
-                                <input type="radio" name="buy" id="sell">
-                            <label for="sell">Vendedor</label>
-                            </div>
-                    </div>
-                    <div class = "intereses">
-                        <h4>Intereses</h4>
-                        <div class = "hijo-interes">
-                            <input type="checkbox" name="electro" id="a">
-                            <label for="electro">Electro</label>
-                        </div>
-                        <div class = "hijo-interes">
-                            <input type="checkbox" name="moda" id="b">
-                            <label for="moda">Moda</label>
-                        </div>
-                        <div class = "hijo-interes">
-                            <input type="checkbox" name="hogar" id="c">
-                            <label for="hogar">Hogar</label>
-                        </div>
-                        <div class = "hijo-interes">
-                            <input type="checkbox" name="jugueteria" id="d">
-                            <label for="jugueteria">Jugueteria</label>
-                        </div class = "hijo-interes">
-                    <div class="hijo-interes">
-                            <input type="checkbox" name="vidasana" id="e">
-                            <label for="electro">Vida Sana</label>
-                    </div>
-                    </div class = "hijo-interes">
-                    <div class="foto">
-                        <h4 for="foto">Elegir tu foto de usuario</h4>
-                        <input type="file" name="imagen" id="f">
                     </div>
                     <div class = "contraseñas">
                         <input type="password" name="password" id="password" placeholder="Contraseña">
-                        <input type="password" name="password-confirm" id="newpassword" placeholder="Nueva contraseña">
                     </div>
                     <div class = "botones">
                         <br>
                         <br>
-                        <input type="reset" value="Borrar">
                         <input type="submit" value="Enviar">
                         <br>
                     </div>
         </section>
     </main>
-
-        <footer>
+    <footer>
         <section>
             <article>
                 <i class="fas fa-credit-card"></i>

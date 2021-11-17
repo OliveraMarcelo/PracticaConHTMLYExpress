@@ -10,7 +10,16 @@ header{
 }
 body{
     background-color: #ebebeb;
+}
+
+footer{
+    background-color: #FFF;
     text-align: center;
+    position: relative;
+    top: 6px;
+}
+footer i{
+    color: #1259c3 ;
 }
 .buscador{
     text-align: center;
@@ -22,11 +31,10 @@ i.fas.fa-search{
 }
 .buscadorsinborde{
     border: 0;
-    border-radius: 50px;
+    border-radius: 10px;
     outline: none;
     padding : auto;
-    margin-left: 2px ;
-
+    margin-left: 2px;
 }
 
 .icon-buscador{
@@ -41,6 +49,11 @@ main{
 
 main section article img{
     width: 100%;
+}
+main section article{
+    
+        text-align: center;
+    
 }
 
 header.main-header{
@@ -76,6 +89,7 @@ p{
 h3.headline {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .burger-menu{
     text-align: center;
