@@ -58,12 +58,18 @@ h2 , h4{
     display: flex;
     margin: 20px 0 ;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .botones{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 .botones input{
+    padding: 10px 150px;
+
     margin: 5px 0;
     background-color:#1259c3;
     font-weight: bold;

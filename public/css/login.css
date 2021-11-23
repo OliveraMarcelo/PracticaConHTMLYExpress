@@ -12,12 +12,19 @@ form input{
 h2{
     margin:20px 0;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .botones input{
-    padding: 10px 10px 10px 0px;
+    padding: 10px 111px;
     margin: 5px 0;
     background-color:#1259c3;
     font-weight: bold;
     text-align: center;
+}
+.botones input:hover{
+    background-color:#0022AA;
 }
 #password{
     display: flex;
@@ -27,4 +34,8 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+footer{
+    position:absolute;
+    bottom: 10px;
 }
